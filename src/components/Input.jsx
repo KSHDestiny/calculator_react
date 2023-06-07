@@ -1,9 +1,9 @@
 import React from 'react'
 import "./Input.css";
 
-const Input = () => {
+const Input = ({input}) => {
   return (
-    <div className='input-text'>0</div>
+    <div className='input-text'>{input}</div>
   )
 }
 
