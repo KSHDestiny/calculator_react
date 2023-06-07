@@ -1,0 +1,30 @@
+.btn-container{
+    width: 400px;
+}
+
+.btn-group{
+    display: flex;
+}
+
+.btn{
+    width: 25%;
+    height: 40px;
+    border: none;
+    transition: .5s;
+}
+
+.btn-destiny{
+    width: 25%;
+    background: #000;
+    color: white;
+}
+
+.btn-calculate{
+    width: 75%;
+    background: orange;
+}
+
+.btn:hover{
+    background-color: #626262;
+    color: white;
+}
