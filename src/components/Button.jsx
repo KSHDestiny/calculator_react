@@ -5,7 +5,7 @@ const Button = ({clickEventHandling}) => {
   return (
     <div className='btn-container'>
       <div className="btn-group">
-        <button className="btn" onClick={ (e)=>clickEventHandling(e.target.innerText) }>C</button>
+        <button className="btn" onClick={ (e)=>clickEventHandling(e.target.innerText) }>AC</button>
         <button className="btn" onClick={ (e)=>clickEventHandling(e.target.innerText) }>(</button>
         <button className="btn" onClick={ (e)=>clickEventHandling(e.target.innerText) }>)</button>
         <button className="btn" onClick={ (e)=>clickEventHandling(e.target.innerText) }>Del</button>
