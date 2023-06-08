@@ -1,3 +1,5 @@
+/* eslint-disable eqeqeq */
+/* eslint-disable no-eval */
 import "./App.css";
 import Button from "./components/Button";
 import Input from "./components/Input";
